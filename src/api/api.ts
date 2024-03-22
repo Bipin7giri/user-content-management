@@ -1,0 +1,11 @@
+import { Router } from "express";
+import AuthRouter from "../auth/auth.router";
+import UserRouter from "../users/user.router";
+import RoleRouter from "../roles/role.router";
+import PostRouter from "../posts/post.router";
+const router: Router = Router();
+router.use("/auth", AuthRouter);
+router.use("/roles", RoleRouter);
+router.use("/users", UserRouter);
+router.use("/posts", PostRouter);
+export default router;
