@@ -1,4 +1,3 @@
-Certainly! Below is a GitHub README.md template incorporating both the deployment instructions and the NGINX deployment instructions:
 
 ```markdown
 # User-Generated Content Management System
